@@ -3,7 +3,7 @@ Shrike
 ======
 
 Shrike implements cooperative threading for Python_.  It uses
-techniques similar to POSIX's deprecated ucontext_(3) routines.  [That
+techniques similar to POSIX's deprecated ucontext_ (3) routines.  [That
 means it uses a bit of assembly magic to swap between two CPU
 contexts].
 
