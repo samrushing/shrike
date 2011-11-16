@@ -20,7 +20,7 @@ possible to scale to millions of threads.
 Implementation
 --------------
 
-Shrike is written in http://cython.org/, and when combined with a scalable
+Shrike is written in Cython_, and when combined with a scalable
 event-driven kernel interface like kqueue(), enables the construction
 of high-performance network servers that don't fall down when hit with
 a few hundred connections.
@@ -29,3 +29,5 @@ History
 -------
 
 [XXX put a history here of egroups-coro, stackless, minstack, shrapnel]
+
+.. _Cython: http://cython.org/
