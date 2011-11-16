@@ -2,8 +2,10 @@
 Shrike
 ======
 
-Shrike implements cooperative threading for CPython.  It uses
-techniques similar to POSIX's deprecated ucontext(3) routines.
+Shrike implements cooperative threading for Python_.  It uses
+techniques similar to POSIX's deprecated ucontext_(3) routines.  [That
+means it uses a bit of assembly magic to swap between two CPU
+contexts].
 
 Design
 ------
@@ -31,3 +33,5 @@ History
 [XXX put a history here of egroups-coro, stackless, minstack, shrapnel]
 
 .. _Cython: http://cython.org/
+.. _Python: http://www.python.org/
+.. _ucontext: http://pubs.opengroup.org/onlinepubs/7908799/xsh/ucontext.h.html
