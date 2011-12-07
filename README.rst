@@ -30,8 +30,20 @@ a few hundred connections.
 History
 -------
 
+Note: Since Shrapnel_ was open-sourced in late 2011, this project will suffer
+one of three fates:
+
+  1) new features merged into shrapnel
+  2) discarded
+  3) act as a compatible, conservative, minimalist implementation of the shrapnel/coro API.
+
+I'm leaning toward #3 myself, but as usual free time and requirements will affect the outcome.
+One possible advantage that shrike may have over shrapnel: it may very well run on Windows,
+if a select()-based poller is written.
+
 [XXX put a history here of egroups-coro, stackless, minstack, shrapnel]
 
 .. _Cython: http://cython.org/
 .. _Python: http://www.python.org/
 .. _ucontext: http://pubs.opengroup.org/onlinepubs/7908799/xsh/ucontext.h.html
+.. _Shrapnel: http://github.com/ironport/shrapnel/
